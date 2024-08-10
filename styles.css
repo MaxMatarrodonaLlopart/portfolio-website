@@ -171,7 +171,7 @@ nav div {
 @media screen and (max-width: 750px) {
     .content {
         margin: 7.5vh 6vw 3vh 6vw;
-        padding: 2rem;
+        padding: 1.75rem;
     }
 
     .welcome {
@@ -187,7 +187,7 @@ nav div {
 @media screen and (max-width: 550px) {
     .content {
         margin: 2.5vh 2vw 1vh 2vw;
-        padding: 1.75rem;
+        padding: 1rem;
     }
 
     .welcome {
