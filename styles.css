@@ -188,16 +188,16 @@ nav div {
     }
     
     .navigation_links a, .dropdown-btn {
-        font-size: 1.25rem;
-        margin: 0 0.6rem;
+        font-size: 0.85rem;
+        margin: 0 0.4rem;
     }
 
     .arrow {
-        font-size: 1.45rem;
+        font-size: 0.9rem;
     }
 
     .logo {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
 }
 
