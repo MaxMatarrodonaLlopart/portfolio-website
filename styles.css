@@ -181,3 +181,18 @@ nav div {
         font-size: 1.67rem;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .content {
+        margin: 5vh 4vw 2vh 4vw;
+    }
+
+    .welcome {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .welcome_paragraph {
+        font-size: 1.56rem;
+    }
+}
