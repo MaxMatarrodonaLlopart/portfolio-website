@@ -166,6 +166,19 @@ nav div {
     .welcome_paragraph {
         font-size: 1.78rem;
     }
+
+    nav {
+        height: 65px;
+    }
+    
+    .navigation_links a, .dropdown-btn {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+    
+    .logo {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -200,5 +213,17 @@ nav div {
     
     .welcome_paragraph {
         font-size: 1.34rem;
+    }
+
+    nav {
+        height: 55px;
+    }
+    
+    .navigation_links a, .dropdown-btn {
+        font-size: 0.9rem;
+    }
+    
+    .logo {
+        font-size: 2rem;
     }
 }
