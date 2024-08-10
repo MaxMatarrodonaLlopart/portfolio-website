@@ -203,6 +203,6 @@ nav div {
     }
 
     .navigation_links a, .dropdown-btn {
-        margin: 0 1rem;
+        margin: 0 0.5rem;
     }
 }
