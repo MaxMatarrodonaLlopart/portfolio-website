@@ -115,7 +115,7 @@ nav div {
     text-align: center;
     margin: 25vh 20vw 10vh 20vw;
     padding: 2.5rem;
-    min-width: 400px;
+    min-width: 300px;
     border: solid 0.25rem rgb(22, 22, 22);
     border-radius: 1rem;
     transition: 0.25s ease-in-out;
@@ -170,32 +170,35 @@ nav div {
 
 @media screen and (max-width: 750px) {
     .content {
-        margin: 7.5vh 6vw 3vh 6vw;
-        padding: 1.75rem;
+        margin: 15vh 6vw 3vh 6vw;
+        padding: 1.5rem;
     }
 
     .welcome {
-        font-size: 3.75rem;
+        font-size: 3.5rem;
         margin-bottom: 1.5rem;
     }
     
     .welcome_paragraph {
         font-size: 1.67rem;
     }
+
+    .logo {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 550px) {
     .content {
-        margin: 2.5vh 2vw 1vh 2vw;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .welcome {
-        font-size: 3.25rem;
+        font-size: 3rem;
         margin-bottom: 1.5rem;
     }
     
     .welcome_paragraph {
-        font-size: 1.45rem;
+        font-size: 1.34rem;
     }
 }
