@@ -18,13 +18,6 @@ gsap.from(".logo_animation", {
     x: -80
 });
 
-gsap.from(".content_animation", {
-    duration: 1,
-    opacity: -2,
-    delay: 0.25,
-    y: 80
-});
-
 document.querySelectorAll('.dropdown-btn').forEach(button => {
     button.addEventListener('click', function() {
         this.parentElement.classList.toggle('active');
