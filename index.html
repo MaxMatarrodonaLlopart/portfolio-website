@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Max Matarrodona Llopart</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a class="logo" href="index.html">MML</a>
+            <div class="navigation_links">
+                <a href="#">About Me</a>
+                <div class="dropdown">
+                    <div class="dropdown-btn"><span class="arrow">></span> CV</div>
+                    <div class="dropdown-content">
+                        <a href="CV Max Matarrodona Llopart (ENG).pdf" download>Download (English)</a>
+                        <a href="{% static 'CVs/cv_es.pdf' %}" download>Descargar (Español)</a>
+                        <a href="{% static 'CVs/cv_cat.pdf' %}" download>Descarregar (Català)</a>
+                    </div>
+                </div>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="welcome">Welcome!</div>
+            <div class="welcome_paragraph">
+                Here you will be able to get to know me better. 
+                You can use the top-right links to navigate through 
+                the different sections of this page. Do not hesitate 
+                on contacting me for any doubts!
+            </div>
+        </div>
+    </body>
+</html>
