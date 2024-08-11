@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Max Matarrodona Llopart</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navigation_container">
+            <div class="logo_animation"><a class="logo" href="index.html">MML</a></div>
+            <div class="navigation_links">
+                <a href="about-me.html">About Me</a>
+                <div class="dropdown">
+                    <div class="dropdown-btn"><span class="arrow">&gt</span> CV</div>
+                    <div class="dropdown-content">
+                        <a href="CV Max Matarrodona Llopart (ENG).pdf" download>Download (English)</a>
+                        <a href="{% static 'CVs/cv_es.pdf' %}" download>Descargar (Español)</a>
+                        <a href="{% static 'CVs/cv_cat.pdf' %}" download>Descarregar (Català)</a>
+                    </div>
+                </div>
+                <a href="#">Contact</a>
+            </div>
+            <div class="hamburger_menu">
+                <span class="hamburger_icon">&#9776;</span>
+            </div>
+        </nav>
+        <div class="about_me_content">
+            <div class="about_me">About Me</div>
+            <div class="about_me_paragraph">
+                Here you will be able to get to know me better. 
+                You can use the top-right links to navigate through 
+                the different sections of this page. Do not hesitate 
+                on contacting me for any doubts!
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

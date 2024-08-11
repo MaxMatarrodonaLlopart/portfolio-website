@@ -18,6 +18,12 @@ gsap.from(".logo_animation", {
     x: -80
 });
 
+/*about-me.html*/
+
+
+
+/*^^^^^^^^about-me.html^^^^^^^^*/
+
 document.querySelectorAll('.dropdown-btn').forEach(button => {
     button.addEventListener('click', function() {
         this.parentElement.classList.toggle('active');
@@ -27,6 +33,36 @@ document.querySelectorAll('.dropdown-btn').forEach(button => {
 document.addEventListener('click', function() {
     document.querySelectorAll('.dropdown').forEach(dropdown => {
         dropdown.classList.remove('active');
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburgerMenu = document.querySelector('.hamburger_menu');
+    const navigationLinks = document.querySelector('.navigation_links');
+
+    hamburgerMenu.addEventListener('click', function() {
+        navigationLinks.classList.toggle('active');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerIcon = document.querySelector('.hamburger_icon')
+    const navLinks = document.querySelector('.navigation_links');
+
+    hamburgerIcon.addEventListener('mouseleave', function() {
+        navLinks.classList.remove('active');
+    });
+
+    hamburgerIcon.addEventListener('mouseenter', function() {
+        navLinks.classList.add('active');
+    });
+
+    navLinks.addEventListener('mouseleave', function() {
+        navLinks.classList.remove('active');
+    });
+
+    navLinks.addEventListener('mouseenter', function() {
+        navLinks.classList.add('active');
     });
 });
 

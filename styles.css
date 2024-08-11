@@ -62,6 +62,7 @@ nav div {
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
     z-index: 1;
+    border: solid 2px rgb(22, 22, 22);
 }
 
 .dropdown-content a {
@@ -94,6 +95,24 @@ nav div {
 
 .dropdown-btn:hover {
     color: rgb(238, 0, 0);
+}
+
+.hamburger_menu {
+    display: none;
+    cursor: pointer;
+    z-index: -100;
+}
+
+.hamburger_icon {
+    font-size: 2rem;
+    color: rgb(238, 238, 238);
+    padding: 19px;
+    z-index: -100;
+}
+
+.hamburger_icon:hover .navigation_links {
+    display: flex;
+    z-index: -100;
 }
 
 .logo {
@@ -133,6 +152,24 @@ nav div {
 }
 
 .welcome_paragraph {
+    color: rgb(238, 238, 238);
+    font-size: 2rem;
+}
+
+/*about-me.html*/
+
+.about_me_content {
+    margin: 10rem 3rem 0 3rem;
+    cursor: default;
+}
+
+.about_me {
+    font-size: 4.5rem;
+    color: rgb(238, 238, 238);
+    margin-bottom: 1.5rem;
+}
+
+.about_me_paragraph {
     color: rgb(238, 238, 238);
     font-size: 2rem;
 }
@@ -183,21 +220,46 @@ nav div {
         font-size: 1.67rem;
     }
 
-    nav {
-        height: 65px;
+    .navigation_links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 74px;
+        right: 5vw;
+        background-color: rgb(54, 54, 54);
+        width: auto;
+        border: solid 2px rgb(22, 22, 22);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+        z-index: 1;
     }
-    
+
     .navigation_links a, .dropdown-btn {
-        font-size: 0.85rem;
-        margin: 0 0.4rem;
+        margin: 0;
+        padding: 12px 16px;
+        color: rgb(238, 238, 238);
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        transition: 0.2s ease-in-out;
+        background-color: rgb(54, 54, 54);
     }
 
-    .arrow {
-        font-size: 0.9rem;
+    .navigation_links a:hover, .dropdown-btn:hover {
+        background-color: rgb(44, 44, 44);
+        color: rgb(238, 0, 0);
     }
 
-    .logo {
-        font-size: 1.8rem;
+    .hamburger_menu {
+        display: block;
+    }
+
+    .navigation_links.active {
+        display: flex;
+    }
+
+    .dropdown-content {
+        right: 100%;
+        top: 0;
     }
 }
 
