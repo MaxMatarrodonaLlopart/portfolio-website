@@ -24,6 +24,12 @@ gsap.from(".logo_animation", {
 
 /*^^^^^^^^about-me.html^^^^^^^^*/
 
+/*contact.html*/
+
+
+
+/*^^^^^^^^contact.html^^^^^^^^*/
+
 document.querySelectorAll('.dropdown-btn').forEach(button => {
     button.addEventListener('click', function() {
         this.parentElement.classList.toggle('active');
@@ -36,7 +42,23 @@ document.addEventListener('click', function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener('DOMContentLoaded', function() {
+    const svg = document.querySelector('.media_container');
+    const circle = document.querySelector('.media_container_circle');
+    const rect = document.querySelector('.media_container_background');
+
+    svg.addEventListener('mouseenter', () => {
+        gsap.to(circle, { duration: 0.5, width: 296, ease: "back.out(1.7)" });
+        gsap.to(rect, { duration: 0.5, fill: "white", ease: "back.out(1.7)" });
+    });
+
+    svg.addEventListener('mouseleave', () => {
+        gsap.to(circle, { duration: 0.5, width: 56, ease: "back.in(1.7)" });
+        gsap.to(rect, { duration: 0.5, fill: "white", ease: "back.in(1.7)" });
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
     const hamburgerMenu = document.querySelector('.hamburger_menu');
     const navigationLinks = document.querySelector('.navigation_links');
 
