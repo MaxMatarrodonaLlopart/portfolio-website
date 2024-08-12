@@ -176,24 +176,39 @@ nav div {
 
 /*contact.html*/
 
-.media_container, .linkedin_link {
+.media_container, .linkedin_link, .mail_link {
     cursor: pointer;
     width: 300px;
     height: 60px;
 }
-.media_container_background {
+
+.media_container_background, .media_container_background_mail {
     fill: white;
     stroke: rgb(10, 102, 194);
     stroke-width: 2px;
 }
+
 .media_container_circle {
     fill: rgb(10, 102, 194);
 }
-.media_container_text {
+
+.media_container_text, .media_container_text_mail {
     fill: black;
     font-family: Arial, sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
+}
+
+.media_container_background_mail {
+    stroke: rgb(255, 67, 67);
+}
+
+.media_container_circle_mail {
+    fill: rgb(255, 67, 67);
+}
+
+.media_container_text_mail {
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 1150px) {

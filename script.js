@@ -43,18 +43,27 @@ document.addEventListener('click', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const svg = document.querySelector('.media_container');
-    const circle = document.querySelector('.media_container_circle');
-    const rect = document.querySelector('.media_container_background');
+    const svgs = document.querySelectorAll('.media_container');
 
-    svg.addEventListener('mouseenter', () => {
-        gsap.to(circle, { duration: 0.5, width: 296, ease: "back.out(1.7)" });
-        gsap.to(rect, { duration: 0.5, fill: "white", ease: "back.out(1.7)" });
-    });
+    svgs.forEach(svg => {
+        const circle_linkedin = svg.querySelector('.media_container_circle');
+        const rect_linkedin = svg.querySelector('.media_container_background');
+        const circle_mail = svg.querySelector('.media_container_circle_mail');
+        const rect_mail = svg.querySelector('.media_container_background_mail');
 
-    svg.addEventListener('mouseleave', () => {
-        gsap.to(circle, { duration: 0.5, width: 56, ease: "back.in(1.7)" });
-        gsap.to(rect, { duration: 0.5, fill: "white", ease: "back.in(1.7)" });
+        svg.addEventListener('mouseenter', () => {
+            gsap.to(circle_linkedin, { duration: 0.5, width: 296, ease: "back.out(1.7)" });
+            gsap.to(rect_linkedin, { duration: 0.5, fill: "white", ease: "back.out(1.7)" });
+            gsap.to(circle_mail, { duration: 0.5, width: 296, ease: "back.out(1.7)" });
+            gsap.to(rect_mail, { duration: 0.5, fill: "white", ease: "back.out(1.7)" });
+        });
+
+        svg.addEventListener('mouseleave', () => {
+            gsap.to(circle_linkedin, { duration: 0.5, width: 56, ease: "back.in(1.7)" });
+            gsap.to(rect_linkedin, { duration: 0.5, fill: "white", ease: "back.in(1.7)" });
+            gsap.to(circle_mail, { duration: 0.5, width: 56, ease: "back.in(1.7)" });
+            gsap.to(rect_mail, { duration: 0.5, fill: "white", ease: "back.in(1.7)" });
+        });
     });
 });
 
