@@ -63,6 +63,7 @@ nav div {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
     z-index: 1;
     border: solid 2px rgb(22, 22, 22);
+    top: 51px;
 }
 
 .dropdown-content a {
