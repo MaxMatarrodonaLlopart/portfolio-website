@@ -283,9 +283,8 @@ nav div {
         margin: 20vh 16vw 8vh 16vw;
     }
 
-    .content_title {
+    .content_title, .welcome_text {
         font-size: 4.25rem;
-        margin-bottom: 1.5rem;
     }
     
     .welcome_paragraph {
@@ -299,9 +298,8 @@ nav div {
         padding: 2.25rem;
     }
 
-    .content_title {
+    .content_title, .welcome_text {
         font-size: 4rem;
-        margin-bottom: 1.5rem;
     }
     
     .welcome_paragraph {
@@ -315,9 +313,8 @@ nav div {
         padding: 1.5rem;
     }
 
-    .content_title {
+    .content_title, .welcome_text {
         font-size: 3.5rem;
-        margin-bottom: 1.5rem;
     }
     
     .welcome_paragraph {
@@ -372,9 +369,8 @@ nav div {
         padding: 0.5rem;
     }
 
-    .content_title {
+    .content_title, .welcome_text {
         font-size: 3rem;
-        margin-bottom: 1.5rem;
     }
     
     .welcome_paragraph {
