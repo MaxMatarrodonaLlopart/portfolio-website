@@ -19,6 +19,8 @@ nav {
     padding: 0 5vw;
     border-bottom: solid 2px rgb(22, 22, 22);
     box-shadow: 0 0 2rem 0 rgb(255, 0, 0, 0.7);
+    position: relative;
+    z-index: 1;
 }
 
 nav div {
