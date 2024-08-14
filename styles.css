@@ -61,7 +61,6 @@ nav div {
     background-color: rgb(54, 54, 54);
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
-    z-index: 1;
     border: solid 2px rgb(22, 22, 22);
 }
 
@@ -100,19 +99,16 @@ nav div {
 .hamburger_menu {
     display: none;
     cursor: pointer;
-    z-index: -100;
 }
 
 .hamburger_icon {
     font-size: 2rem;
     color: rgb(238, 238, 238);
     padding: 19px;
-    z-index: -100;
 }
 
 .hamburger_icon:hover .navigation_links {
     display: flex;
-    z-index: -100;
 }
 
 .logo {
@@ -298,6 +294,10 @@ nav div {
         padding: 2.25rem;
     }
 
+    .welcome_div {
+        margin-bottom: 1.25rem;
+    }
+
     .content_title, .welcome_text {
         font-size: 4rem;
     }
@@ -311,6 +311,10 @@ nav div {
     .content {
         margin: 15vh 6vw 3vh 6vw;
         padding: 1.5rem;
+    }
+
+    .welcome_div {
+        margin-bottom: 1rem;
     }
 
     .content_title, .welcome_text {
@@ -331,7 +335,6 @@ nav div {
         width: auto;
         border: solid 2px rgb(22, 22, 22);
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
-        z-index: 1;
     }
 
     .navigation_links a, .dropdown-btn {
@@ -369,6 +372,10 @@ nav div {
         padding: 0.5rem;
     }
 
+    .welcome_div {
+        margin-bottom: 0.75rem;
+    }
+    
     .content_title, .welcome_text {
         font-size: 3rem;
     }
