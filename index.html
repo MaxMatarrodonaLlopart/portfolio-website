@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Matarrodona · Intersecció Hardware/Software</title>
+    <meta name="description" content="Estudiant de Doble Grau en Enginyeria Informàtica i Electrònica de Telecomunicació apassionat per la confluència entre el maquinari i el programari.">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Capçalera (Header) -->
+    <header>
+        <nav class="container">
+            <a href="/" class="logo" aria-label="Inici">MML</a>
+            
+            <div class="nav-controls">
+                <!-- Language selector -->
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="ca">CA</button>
+                    <button class="lang-btn" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+
+                <!-- Theme toggle -->
+                <button class="theme-toggle" aria-label="Canviar tema">
+                    <span class="theme-icon">🌙</span>
+                </button>
+
+                <!-- Mobile menu button -->
+                <button class="menu-toggle" aria-label="Menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#sobre-mi" data-i18n="nav.sobre_mi">Sobre mi</a></li>
+                <li><a href="#formacio" data-i18n="nav.formacio">Formació</a></li>
+                <li><a href="#projectes" data-i18n="nav.projectes">Projectes</a></li>
+                <li><a href="#visio" data-i18n="nav.visio">Visió</a></li>
+                <li><a href="#contacte" data-i18n="nav.contacte">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <h1 class="hero-title" data-i18n="hero.title">
+                    Combinant la lògica de la informàtica amb la creativitat de l'electrònica
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
+                    Des del transistor fins al programari, construint el futur.
+                </p>
+                <p class="hero-name" data-i18n="hero.name">Max Matarrodona Llopart</p>
+                <p class="hero-description" data-i18n="hero.description">
+                    Estudiant de Doble Grau en Enginyeria Informàtica (Computadors) i Electrònica de Telecomunicació a la UAB.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projectes" class="button button-primary" data-i18n="hero.cta_projects">Explora els meus projectes</a>
+                    <a href="#contacte" class="button button-secondary" data-i18n="hero.cta_contact">Connectem</a>
+                </div>
+                <div class="hero-links">
+                    <a href="https://linkedin.com/in/el-teu-usuari" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/el-teu-usuari" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Mi -->
+        <section id="sobre-mi" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="about.title">Sobre mi</h2>
+                <div class="sobre-mi-content">
+                    <p data-i18n="about.p1">
+                        La meva passió per la tecnologia va néixer a quart d'ESO, participant a la First Lego League. 
+                        Una conversa amb el rector de l'Escola d'Enginyeria de la UAB em va obrir els ulls a la possibilitat 
+                        de combinar dues de les meves grans passions: la lògica i estructura de la informàtica amb la creativitat 
+                        i aplicació pràctica de l'electrònica a les telecomunicacions.
+                    </p>
+                    <p data-i18n="about.p2">
+                        Em fascina especialment la <span class="highlight">confluència d'ambdues disciplines</span>: l'arquitectura de computadors, 
+                        els sistemes encastats, l'electrònica de microones... són àrees que em permeten entendre la tecnologia 
+                        des del transistor fins al programari. Aquesta visió general del món TIC, on puc crear i transformar 
+                        idees en realitats tangibles, és el que em manté plenament motivat.
+                    </p>
+                    <p class="idiomes" data-i18n="about.languages">
+                        <strong>Idiomes:</strong> Català, Castellà, Anglès i Francès (DELF B1, après de manera autodidacta).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formació i Àrees d'Interès -->
+        <section id="formacio" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="education.title">Formació i àrees d'interès</h2>
+                <div class="formacio-grid">
+                    <div class="card">
+                        <h3 data-i18n="education.double_degree.title">Doble Grau</h3>
+                        <p class="card-subtitle" data-i18n="education.double_degree.subtitle">UAB · 2023 - 2028</p>
+                        <p data-i18n="education.double_degree.description">Enginyeria Informàtica (menció Enginyeria de Computadors) i Enginyeria Electrònica de Telecomunicació.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="education.subjects.title">Assignatures estrella</h3>
+                        <ul class="card-list" id="subjects-list">
+                            <!-- Es generarà amb JavaScript -->
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="education.interests.title">Temàtiques que m'apassionen</h3>
+                        <ul class="card-list" id="interests-list">
+                            <!-- Es generarà amb JavaScript -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projectes -->
+        <section id="projectes" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="projects.title">Projectes</h2>
+                <p class="section-description" data-i18n="projects.description">Aquí hi aniran els meus projectes. De moment, aquest espai està preparat per quan els vulgui afegir.</p>
+                <div class="projectes-grid" id="projects-container">
+                    <!-- Es generarà amb JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Motivació i Visió de Futur -->
+        <section id="visio" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="vision.title">Motivació i visió de futur</h2>
+                <div class="visio-content">
+                    <p>
+                        <span class="highlight" data-i18n="vision.quote">"Em costa prioritzar en què aprofundir i conèixer el dia a dia d'una empresa, aplicar els meus coneixements fora dels llibres."</span>
+                    </p>
+                    <p data-i18n="vision.p1">
+                        Per això, busco constantment connectar la teoria acadèmica amb la pràctica professional. En cinc anys, 
+                        m'agradaria veure'm treballant com a enginyer en un equip de desenvolupament de productes tecnològics innovadors, 
+                        especialment en l'àmbit dels sistemes intel·ligents, la robòtica o la microelectrònica.
+                    </p>
+                    <p data-i18n="vision.p2">
+                        Aspiro a ser un professional capaç de no només executar solucions, sinó de proposar-les, participant activament 
+                        en el disseny d'arquitectures maquinari-programari i, més endavant, liderar projectes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacte -->
+        <section id="contacte" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="contact.title">Contacte</h2>
+                <div class="contacte-content">
+                    <p data-i18n="contact.description">Si vols parlar de tecnologia, projectes o oportunitats, no dubtis a escriure'm!</p>
+                    <a href="mailto:hola@maxmatarrodona.com" class="button button-primary" data-i18n="contact.email">hola@maxmatarrodona.com</a>
+                    <div class="contacte-links">
+                        <a href="https://linkedin.com/in/el-teu-usuari" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/el-teu-usuari" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer.credit">© 2026 Max Matarrodona Llopart · Dissenyat i desenvolupat amb HTML/CSS/JS</p>
+        </div>
+    </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
