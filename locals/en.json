@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "sobre_mi": "About me",
+    "formacio": "Education",
+    "projectes": "Projects",
+    "visio": "Vision",
+    "contacte": "Contact"
+  },
+  "hero": {
+    "title": "Combining the logic of computer science with the creativity of electronics",
+    "subtitle": "From the transistor to software, building the future.",
+    "name": "Max Matarrodona Llopart",
+    "description": "Double Degree student in Computer Engineering (Computer Engineering specialization) and Electronic Telecommunications Engineering at UAB.",
+    "cta_projects": "Explore my projects",
+    "cta_contact": "Let's connect"
+  },
+  "about": {
+    "title": "About me",
+    "p1": "My passion for technology was born in the 4th year of ESO, participating in the First Lego League. A conversation with the dean of the UAB School of Engineering opened my eyes to the possibility of combining two of my great passions: the logic and structure of computer science with the creativity and practical application of electronics in telecommunications.",
+    "p2": "I am especially fascinated by the confluence of both disciplines: computer architecture, embedded systems, microwave electronics... these are areas that allow me to understand technology from the transistor to software. This overview of the ICT world, where I can create and transform ideas into tangible realities, is what keeps me fully motivated.",
+    "languages": "Languages: Catalan, Spanish, English and French (DELF B1, self-taught)."
+  },
+  "education": {
+    "title": "Education & interests",
+    "double_degree": {
+      "title": "Double Degree",
+      "subtitle": "UAB · 2023 - 2028",
+      "description": "Computer Engineering (Computer Engineering specialization) and Electronic Telecommunications Engineering."
+    },
+    "subjects": {
+      "title": "Favorite subjects",
+      "list": [
+        "Radio Frequency and Microwave Engineering",
+        "High Performance Computing",
+        "Programming Lab",
+        "Computer Architecture",
+        "Embedded Systems"
+      ]
+    },
+    "interests": {
+      "title": "Topics I'm passionate about",
+      "list": [
+        "Intelligent Systems",
+        "Robotics",
+        "Microelectronics"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "My projects will go here. For now, this space is ready for when I want to add them.",
+    "view_code": "View code →",
+    "placeholder1": {
+      "title": "Project Name 1",
+      "description": "Brief description of the project, technologies used and my role."
+    },
+    "placeholder2": {
+      "title": "Project Name 2",
+      "description": "Brief description of the project, technologies used and my role."
+    }
+  },
+  "vision": {
+    "title": "Motivation & future vision",
+    "quote": "\"I find it hard to prioritize what to deepen and to know the day-to-day of a company, to apply my knowledge outside of books.\"",
+    "p1": "That's why I constantly seek to connect academic theory with professional practice. In five years, I would like to see myself working as an engineer in an innovative technological product development team, especially in the field of intelligent systems, robotics or microelectronics.",
+    "p2": "I aspire to be a professional capable not only of executing solutions, but of proposing them, actively participating in the design of hardware-software architectures and, later on, leading projects."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "If you want to talk about technology, projects or opportunities, don't hesitate to write to me!",
+    "email": "hola@maxmatarrodona.com"
+  },
+  "footer": {
+    "credit": "© 2026 Max Matarrodona Llopart · Designed and developed with HTML/CSS/JS"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "sobre_mi": "Sobre mí",
+    "formacio": "Formación",
+    "projectes": "Proyectos",
+    "visio": "Visión",
+    "contacte": "Contacto"
+  },
+  "hero": {
+    "title": "Combinando la lógica de la informática con la creatividad de la electrónica",
+    "subtitle": "Desde el transistor hasta el software, construyendo el futuro.",
+    "name": "Max Matarrodona Llopart",
+    "description": "Estudiante de Doble Grado en Ingeniería Informática (Computadores) y Electrónica de Telecomunicación en la UAB.",
+    "cta_projects": "Explora mis proyectos",
+    "cta_contact": "Conectemos"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Mi pasión por la tecnología nació en cuarto de ESO, participando en la First Lego League. Una conversación con el rector de la Escuela de Ingeniería de la UAB me abrió los ojos a la posibilidad de combinar dos de mis grandes pasiones: la lógica y estructura de la informática con la creatividad y aplicación práctica de la electrónica en las telecomunicaciones.",
+    "p2": "Me fascina especialmente la confluencia de ambas disciplinas: la arquitectura de computadores, los sistemas embebidos, la electrónica de microondas... son áreas que me permiten entender la tecnología desde el transistor hasta el software. Esta visión general del mundo TIC, donde puedo crear y transformar ideas en realidades tangibles, es lo que me mantiene plenamente motivado.",
+    "languages": "Idiomas: Catalán, Castellano, Inglés y Francés (DELF B1, aprendido de manera autodidacta)."
+  },
+  "education": {
+    "title": "Formación y áreas de interés",
+    "double_degree": {
+      "title": "Doble Grado",
+      "subtitle": "UAB · 2023 - 2028",
+      "description": "Ingeniería Informática (mención Ingeniería de Computadores) e Ingeniería Electrónica de Telecomunicación."
+    },
+    "subjects": {
+      "title": "Asignaturas estrella",
+      "list": [
+        "Ingeniería de Radiofrecuencia y Microondas",
+        "Computación de Altas Prestaciones",
+        "Laboratorio de Programación",
+        "Arquitectura de Computadores",
+        "Sistemas Embebidos"
+      ]
+    },
+    "interests": {
+      "title": "Temáticas que me apasionan",
+      "list": [
+        "Sistemas Inteligentes",
+        "Robótica",
+        "Microelectrónica"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "Aquí irán mis proyectos. De momento, este espacio está preparado para cuando quiera añadirlos.",
+    "view_code": "Ver código →",
+    "placeholder1": {
+      "title": "Nombre del Proyecto 1",
+      "description": "Breve descripción del proyecto, las tecnologías utilizadas y mi rol."
+    },
+    "placeholder2": {
+      "title": "Nombre del Proyecto 2",
+      "description": "Breve descripción del proyecto, las tecnologías utilizadas y mi rol."
+    }
+  },
+  "vision": {
+    "title": "Motivación y visión de futuro",
+    "quote": "\"Me cuesta priorizar en qué profundizar y conocer el día a día de una empresa, aplicar mis conocimientos fuera de los libros.\"",
+    "p1": "Por eso, busco constantemente conectar la teoría académica con la práctica profesional. En cinco años, me gustaría verme trabajando como ingeniero en un equipo de desarrollo de productos tecnológicos innovadores, especialmente en el ámbito de los sistemas inteligentes, la robótica o la microelectrónica.",
+    "p2": "Aspiro a ser un profesional capaz de no solo ejecutar soluciones, sino de proponerlas, participando activamente en el diseño de arquitecturas hardware-software y, más adelante, liderar proyectos."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Si quieres hablar de tecnología, proyectos u oportunidades, ¡no dudes en escribirme!",
+    "email": "hola@maxmatarrodona.com"
+  },
+  "footer": {
+    "credit": "© 2026 Max Matarrodona Llopart · Diseñado y desarrollado con HTML/CSS/JS"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro"
+  }
+}

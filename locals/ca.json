@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "sobre_mi": "Sobre mi",
+    "formacio": "Formació",
+    "projectes": "Projectes",
+    "visio": "Visió",
+    "contacte": "Contacte"
+  },
+  "hero": {
+    "title": "Combinant la lògica de la informàtica amb la creativitat de l'electrònica",
+    "subtitle": "Des del transistor fins al programari, construint el futur.",
+    "name": "Max Matarrodona Llopart",
+    "description": "Estudiant de Doble Grau en Enginyeria Informàtica (Computadors) i Electrònica de Telecomunicació a la UAB.",
+    "cta_projects": "Explora els meus projectes",
+    "cta_contact": "Connectem"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "p1": "La meva passió per la tecnologia va néixer a quart d'ESO, participant a la First Lego League. Una conversa amb el rector de l'Escola d'Enginyeria de la UAB em va obrir els ulls a la possibilitat de combinar dues de les meves grans passions: la lògica i estructura de la informàtica amb la creativitat i aplicació pràctica de l'electrònica a les telecomunicacions.",
+    "p2": "Em fascina especialment la confluència d'ambdues disciplines: l'arquitectura de computadors, els sistemes encastats, l'electrònica de microones... són àrees que em permeten entendre la tecnologia des del transistor fins al programari. Aquesta visió general del món TIC, on puc crear i transformar idees en realitats tangibles, és el que em manté plenament motivat.",
+    "languages": "Idiomes: Català, Castellà, Anglès i Francès (DELF B1, après de manera autodidacta)."
+  },
+  "education": {
+    "title": "Formació i àrees d'interès",
+    "double_degree": {
+      "title": "Doble Grau",
+      "subtitle": "UAB · 2023 - 2028",
+      "description": "Enginyeria Informàtica (menció Enginyeria de Computadors) i Enginyeria Electrònica de Telecomunicació."
+    },
+    "subjects": {
+      "title": "Assignatures estrella",
+      "list": [
+        "Enginyeria de Radiofreqüència i Microones",
+        "Computació d'Altes Prestacions",
+        "Laboratori de Programació",
+        "Arquitectura de Computadors",
+        "Sistemes Encastats"
+      ]
+    },
+    "interests": {
+      "title": "Temàtiques que m'apassionen",
+      "list": [
+        "Sistemes Intel·ligents",
+        "Robòtica",
+        "Microelectrònica"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projectes",
+    "description": "Aquí hi aniran els meus projectes. De moment, aquest espai està preparat per quan els vulgui afegir.",
+    "view_code": "Veure codi →",
+    "placeholder1": {
+      "title": "Nom del Projecte 1",
+      "description": "Breu descripció del projecte, les tecnologies utilitzades i el meu rol."
+    },
+    "placeholder2": {
+      "title": "Nom del Projecte 2",
+      "description": "Breu descripció del projecte, les tecnologies utilitzades i el meu rol."
+    }
+  },
+  "vision": {
+    "title": "Motivació i visió de futur",
+    "quote": "\"Em costa prioritzar en què aprofundir i conèixer el dia a dia d'una empresa, aplicar els meus coneixements fora dels llibres.\"",
+    "p1": "Per això, busco constantment connectar la teoria acadèmica amb la pràctica professional. En cinc anys, m'agradaria veure'm treballant com a enginyer en un equip de desenvolupament de productes tecnològics innovadors, especialment en l'àmbit dels sistemes intel·ligents, la robòtica o la microelectrònica.",
+    "p2": "Aspiro a ser un professional capaç de no només executar solucions, sinó de proposar-les, participant activament en el disseny d'arquitectures maquinari-programari i, més endavant, liderar projectes."
+  },
+  "contact": {
+    "title": "Contacte",
+    "description": "Si vols parlar de tecnologia, projectes o oportunitats, no dubtis a escriure'm!",
+    "email": "hola@maxmatarrodona.com"
+  },
+  "footer": {
+    "credit": "© 2026 Max Matarrodona Llopart · Dissenyat i desenvolupat amb HTML/CSS/JS"
+  },
+  "theme": {
+    "light": "Clar",
+    "dark": "Fosc"
+  }
+}
