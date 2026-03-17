@@ -81,9 +81,7 @@ nav {
     align-items: center;
 }
 
-/* El teu logo MML - exactament el teu estil */
 .logo {
-    background-color: rgb(54, 54, 54);
     transition: 0.2s ease-in-out;
     text-decoration: none;
     color: rgb(238, 238, 238);
@@ -95,7 +93,6 @@ nav {
 }
 
 .logo:hover {
-    background-color: var(--color-gris-fosc);
     color: var(--color-vermell-transparent);
 }
 
@@ -445,6 +442,7 @@ footer {
     align-items: center;
     gap: 1rem;
     margin-left: auto;
+    margin-right: 1rem;
 }
 
 .language-selector {
@@ -490,6 +488,8 @@ footer {
 
 .theme-icon {
     font-size: 1.2rem;
+    line-height: 1;
+    vertical-align: middle;
 }
 
 /* Menú mòbil */

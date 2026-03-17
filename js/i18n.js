@@ -1,7 +1,7 @@
 // Internationalization management
 class I18n {
     constructor() {
-        this.currentLang = localStorage.getItem('lang') || 'ca';
+        this.currentLang = localStorage.getItem('lang') || 'en';
         this.translations = {};
         this.init();
     }
@@ -15,9 +15,9 @@ class I18n {
     async loadTranslations() {
         try {
             const [ca, es, en] = await Promise.all([
-                fetch('locales/ca.json').then(res => res.json()),
-                fetch('locales/es.json').then(res => res.json()),
-                fetch('locales/en.json').then(res => res.json())
+                fetch('locals/ca.json').then(res => res.json()),
+                fetch('locals/es.json').then(res => res.json()),
+                fetch('locals/en.json').then(res => res.json())
             ]);
             this.translations = { ca, es, en };
         } catch (error) {
