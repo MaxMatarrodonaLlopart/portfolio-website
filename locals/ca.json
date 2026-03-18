@@ -24,7 +24,7 @@
     "title": "Formació i àrees d'interès",
     "double_degree": {
       "title": "Doble Grau",
-      "subtitle": "UAB · 2023 - 2028",
+      "subtitle": "UAB · 2022 - 2027",
       "description": "Enginyeria Informàtica (menció Enginyeria de Computadors) i Enginyeria Electrònica de Telecomunicació."
     },
     "subjects": {
@@ -68,7 +68,7 @@
   "contact": {
     "title": "Contacte",
     "description": "Si vols parlar de tecnologia, projectes o oportunitats, no dubtis a escriure'm!",
-    "email": "hola@maxmatarrodona.com"
+    "email": "Max.Matarrodona@autonoma.cat"
   },
   "footer": {
     "credit": "© 2026 Max Matarrodona Llopart · Dissenyat i desenvolupat amb HTML/CSS/JS"

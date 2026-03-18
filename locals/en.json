@@ -24,7 +24,7 @@
     "title": "Education & interests",
     "double_degree": {
       "title": "Double Degree",
-      "subtitle": "UAB · 2023 - 2028",
+      "subtitle": "UAB · 2022 - 2027",
       "description": "Computer Engineering (Computer Engineering specialization) and Electronic Telecommunications Engineering."
     },
     "subjects": {
@@ -68,7 +68,7 @@
   "contact": {
     "title": "Contact",
     "description": "If you want to talk about technology, projects or opportunities, don't hesitate to write to me!",
-    "email": "hola@maxmatarrodona.com"
+    "email": "Max.Matarrodona@autonoma.cat"
   },
   "footer": {
     "credit": "© 2026 Max Matarrodona Llopart · Designed and developed with HTML/CSS/JS"
