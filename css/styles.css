@@ -247,6 +247,13 @@ nav {
     margin-bottom: 1.5rem;
 }
 
+.first-lego-logo {
+    float: right;
+    width: 300px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
 .highlight {
     color: var(--color-vermell-transparent);
     font-weight: 500;
@@ -432,7 +439,15 @@ footer {
         max-width: 250px;
         text-align: center;
     }
-}
+    
+    .contacte-content .button {
+        padding: 0.8rem 1rem;
+        font-size: 0.8rem;
+        word-break: break-word;
+    }    
+    .first-lego-logo {
+        width: 200px;
+    }}
 
 /* Language selector i theme toggle */
 .nav-controls {

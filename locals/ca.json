@@ -10,7 +10,7 @@
     "title": "Combinant la lògica de la informàtica amb la creativitat de l'electrònica",
     "subtitle": "Des del transistor fins al programari, construint el futur.",
     "name": "Max Matarrodona Llopart",
-    "description": "Estudiant de Doble Grau en Enginyeria Informàtica (Computadors) i Electrònica de Telecomunicació a la UAB.",
+    "description": "Estudiant del Doble Grau en Enginyeria Informàtica (menció en Enginyeria de Computadors) i Enginyeria Electrònica de Telecomunicació a la UAB.",
     "cta_projects": "Explora els meus projectes",
     "cta_contact": "Connectem"
   },
@@ -18,23 +18,22 @@
     "title": "Sobre mi",
     "p1": "La meva passió per la tecnologia va néixer a quart d'ESO, participant a la First Lego League. Una conversa amb el rector de l'Escola d'Enginyeria de la UAB em va obrir els ulls a la possibilitat de combinar dues de les meves grans passions: la lògica i estructura de la informàtica amb la creativitat i aplicació pràctica de l'electrònica a les telecomunicacions.",
     "p2": "Em fascina especialment la confluència d'ambdues disciplines: l'arquitectura de computadors, els sistemes encastats, l'electrònica de microones... són àrees que em permeten entendre la tecnologia des del transistor fins al programari. Aquesta visió general del món TIC, on puc crear i transformar idees en realitats tangibles, és el que em manté plenament motivat.",
-    "languages": "Idiomes: Català, Castellà, Anglès i Francès (DELF B1, après de manera autodidacta)."
+    "languages": "Idiomes: Català, Castellà, Anglès (CAE, C1) i Francès (DELF B1)."
   },
   "education": {
     "title": "Formació i àrees d'interès",
     "double_degree": {
       "title": "Doble Grau",
       "subtitle": "UAB · 2022 - 2027",
-      "description": "Enginyeria Informàtica (menció Enginyeria de Computadors) i Enginyeria Electrònica de Telecomunicació."
+      "description": "Enginyeria Informàtica (menció en Enginyeria de Computadors) i Enginyeria Electrònica de Telecomunicació."
     },
     "subjects": {
-      "title": "Assignatures estrella",
+      "title": "Assignatures rellevants",
       "list": [
         "Enginyeria de Radiofreqüència i Microones",
         "Computació d'Altes Prestacions",
         "Laboratori de Programació",
-        "Arquitectura de Computadors",
-        "Sistemes Encastats"
+        "Sistemes Encastats i Distribuits"
       ]
     },
     "interests": {

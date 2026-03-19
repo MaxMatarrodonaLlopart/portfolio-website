@@ -18,7 +18,7 @@
     "title": "Sobre mí",
     "p1": "Mi pasión por la tecnología nació en cuarto de ESO, participando en la First Lego League. Una conversación con el rector de la Escuela de Ingeniería de la UAB me abrió los ojos a la posibilidad de combinar dos de mis grandes pasiones: la lógica y estructura de la informática con la creatividad y aplicación práctica de la electrónica en las telecomunicaciones.",
     "p2": "Me fascina especialmente la confluencia de ambas disciplinas: la arquitectura de computadores, los sistemas embebidos, la electrónica de microondas... son áreas que me permiten entender la tecnología desde el transistor hasta el software. Esta visión general del mundo TIC, donde puedo crear y transformar ideas en realidades tangibles, es lo que me mantiene plenamente motivado.",
-    "languages": "Idiomas: Catalán, Castellano, Inglés y Francés (DELF B1, aprendido de manera autodidacta)."
+    "languages": "Idiomas: Catalán, Castellano, Inglés (CAE, C1) y Francés (DELF B1)."
   },
   "education": {
     "title": "Formación y áreas de interés",
@@ -28,13 +28,12 @@
       "description": "Ingeniería Informática (mención Ingeniería de Computadores) e Ingeniería Electrónica de Telecomunicación."
     },
     "subjects": {
-      "title": "Asignaturas estrella",
+      "title": "Asignaturas relevantes",
       "list": [
         "Ingeniería de Radiofrecuencia y Microondas",
         "Computación de Altas Prestaciones",
         "Laboratorio de Programación",
-        "Arquitectura de Computadores",
-        "Sistemas Embebidos"
+        "Sistemas Encastados y Distribuidos"
       ]
     },
     "interests": {
