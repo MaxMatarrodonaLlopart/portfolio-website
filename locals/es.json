@@ -47,21 +47,21 @@
   },
   "projects": {
     "title": "Proyectos",
-    "description": "Aquí irán mis proyectos. De momento, este espacio está preparado para cuando quiera añadirlos.",
+    "description": "",
     "view_code": "Ver código →",
     "placeholder1": {
-      "title": "Nombre del Proyecto 1",
-      "description": "Breve descripción del proyecto, las tecnologías utilizadas y mi rol."
+      "title": "Candy Crush Max!",
+      "description": "Implementación de un clon del famoso juego de puzles 'Candy Crush' usando C++. El proyecto incluye mecánicas de juego como el intercambio de caramelos, la detección de coincidencias y la gestión de niveles, ofreciendo una experiencia de juego fluida y entretenida."
     },
     "placeholder2": {
-      "title": "Nombre del Proyecto 2",
-      "description": "Breve descripción del proyecto, las tecnologías utilizadas y mi rol."
+      "title": "Moogle Max",
+      "description": "Implementación de un buscador de caminos óptimos a partir de un archivo OSM (OpenStreetMap). El proyecto permite a los usuarios encontrar la ruta más corta entre dos puntos en un mapa en base a las distancias entre los nodos."
     }
   },
   "vision": {
     "title": "Motivación y visión de futuro",
-    "quote": "\"Me cuesta priorizar en qué profundizar y conocer el día a día de una empresa, aplicar mis conocimientos fuera de los libros.\"",
-    "p1": "Por eso, busco constantemente conectar la teoría académica con la práctica profesional. En cinco años, me gustaría verme trabajando como ingeniero en un equipo de desarrollo de productos tecnológicos innovadores, especialmente en el ámbito de los sistemas inteligentes, la robótica o la microelectrónica.",
+    "quote": "\"En busca de la conexión entre la teoría académica y la práctica profesional.\"",
+    "p1": "Dentro de cinco años, me gustaría verme trabajando como ingeniero en un equipo de desarrollo de productos tecnológicos innovadores, especialmente en el ámbito de los sistemas inteligentes, la robótica o la microelectrónica.",
     "p2": "Aspiro a ser un profesional capaz de no solo ejecutar soluciones, sino de proponerlas, participando activamente en el diseño de arquitecturas hardware-software y, más adelante, liderar proyectos."
   },
   "contact": {

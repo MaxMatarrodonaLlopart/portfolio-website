@@ -10,7 +10,7 @@
     "title": "Combining the logic of computer science with the creativity of electronics",
     "subtitle": "From the transistor to software, building the future.",
     "name": "Max Matarrodona Llopart",
-    "description": "Double Degree student in Computer Engineering (Computer Engineering specialization) and Electronic Telecommunications Engineering at UAB.",
+    "description": "Double Degree student in Computer Science (Computer Engineering specialization) and Electronic Telecommunications Engineering at UAB.",
     "cta_projects": "Explore my projects",
     "cta_contact": "Let's connect"
   },
@@ -25,7 +25,7 @@
     "double_degree": {
       "title": "Double Degree",
       "subtitle": "UAB · 2022 - 2027",
-      "description": "Computer Engineering (Computer Engineering specialization) and Electronic Telecommunications Engineering."
+      "description": "Computer Science (Computer Engineering specialization) and Electronic Telecommunications Engineering."
     },
     "subjects": {
       "title": "Relevant subjects",
@@ -47,21 +47,21 @@
   },
   "projects": {
     "title": "Projects",
-    "description": "My projects will go here. For now, this space is ready for when I want to add them.",
+    "description": "",
     "view_code": "View code →",
     "placeholder1": {
-      "title": "Project Name 1",
-      "description": "Brief description of the project, technologies used and my role."
+      "title": "Candy Crush Max!",
+      "description": "Implementation of a clone of the famous match-3 puzzle game 'Candy Crush' using C++. The project includes game mechanics like candy swapping, match detection, and level management, providing a smooth and entertaining gameplay experience."
     },
     "placeholder2": {
-      "title": "Project Name 2",
-      "description": "Brief description of the project, technologies used and my role."
+      "title": "Moogle Max",
+      "description": "Implementation of an optimal path finder using an OSM (OpenStreetMap) file. The project allows users to find the shortest route between two points on a map based on the distances between nodes."
     }
   },
   "vision": {
     "title": "Motivation & future vision",
-    "quote": "\"I find it hard to prioritize what to deepen and to know the day-to-day of a company, to apply my knowledge outside of books.\"",
-    "p1": "That's why I constantly seek to connect academic theory with professional practice. In five years, I would like to see myself working as an engineer in an innovative technological product development team, especially in the field of intelligent systems, robotics or microelectronics.",
+    "quote": "\"In search of the connection between academic theory and professional practice.\"",
+    "p1": "5 years from now, I would like to see myself working as an engineer in an innovative technological product development team, especially in the field of intelligent systems, robotics or microelectronics.",
     "p2": "I aspire to be a professional capable not only of executing solutions, but of proposing them, actively participating in the design of hardware-software architectures and, later on, leading projects."
   },
   "contact": {

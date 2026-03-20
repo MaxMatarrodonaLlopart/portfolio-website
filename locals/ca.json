@@ -47,21 +47,21 @@
   },
   "projects": {
     "title": "Projectes",
-    "description": "Aquí hi aniran els meus projectes. De moment, aquest espai està preparat per quan els vulgui afegir.",
+    "description": "",
     "view_code": "Veure codi →",
     "placeholder1": {
-      "title": "Nom del Projecte 1",
-      "description": "Breu descripció del projecte, les tecnologies utilitzades i el meu rol."
+      "title": "Candy Crush Max!",
+      "description": "Implementació d'un clon del famós joc de trencaclosques 'Candy Crush' utilitzant C++. El projecte inclou mecàniques de joc com l'intercanvi de caramels, la detecció de coincidències i la gestió de nivells, oferint una experiència de joc fluida i entretinguda."
     },
     "placeholder2": {
-      "title": "Nom del Projecte 2",
-      "description": "Breu descripció del projecte, les tecnologies utilitzades i el meu rol."
+      "title": "Moogle Max",
+      "description": "Implementació d'un cercador de camins òptims a partir d'un fitxer OSM (OpenStreetMap). El projecte permet als usuaris trobar la ruta més curta entre dos punts en un mapa a partir de les distàncies entre els nodes."
     }
   },
   "vision": {
     "title": "Motivació i visió de futur",
-    "quote": "\"Em costa prioritzar en què aprofundir i conèixer el dia a dia d'una empresa, aplicar els meus coneixements fora dels llibres.\"",
-    "p1": "Per això, busco constantment connectar la teoria acadèmica amb la pràctica professional. En cinc anys, m'agradaria veure'm treballant com a enginyer en un equip de desenvolupament de productes tecnològics innovadors, especialment en l'àmbit dels sistemes intel·ligents, la robòtica o la microelectrònica.",
+    "quote": "\"En busca de la connexió entre la teoria acadèmica i la pràctica professional.\"",
+    "p1": "D'aquí cinc anys, m'agradaria veure'm treballant com a enginyer en un equip de desenvolupament de productes tecnològics innovadors, especialment en l'àmbit dels sistemes intel·ligents, la robòtica o la microelectrònica.",
     "p2": "Aspiro a ser un professional capaç de no només executar solucions, sinó de proposar-les, participant activament en el disseny d'arquitectures maquinari-programari i, més endavant, liderar projectes."
   },
   "contact": {

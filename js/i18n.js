@@ -82,19 +82,20 @@ class I18n {
                     <h3>${t.placeholder1.title}</h3>
                     <p>${t.placeholder1.description}</p>
                     <div class="project-tech">
-                        <span>Tecnologia 1</span>
-                        <span>Tecnologia 2</span>
+                        <span>C++</span>
                     </div>
                     <a href="#" class="project-link">${t.view_code}</a>
+                    <img src="/../assets/images/Candy Crush Max Level.png" alt="Candy Crush Max image">
                 </div>
                 <div class="project-card">
                     <h3>${t.placeholder2.title}</h3>
                     <p>${t.placeholder2.description}</p>
                     <div class="project-tech">
-                        <span>Tecnologia 1</span>
-                        <span>Tecnologia 2</span>
+                        <span>C++</span>
+                        <span>XML</span>
                     </div>
                     <a href="#" class="project-link">${t.view_code}</a>
+                    <img src="/../assets/images/Moogle Max.png" alt="Moogle Max image">
                 </div>
             `;
         }
