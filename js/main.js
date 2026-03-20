@@ -56,3 +56,44 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 console.log('Pàgina web de Max Matarrodona carregada!');
+
+// CV dropdown toggle + accessibility
+const cvBtn = document.querySelector('.cv-btn');
+const cvDropdown = document.querySelector('.cv-dropdown');
+
+if (cvBtn && cvDropdown) {
+    cvBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = cvDropdown.classList.toggle('open');
+        cvBtn.setAttribute('aria-expanded', String(!!isOpen));
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!cvDropdown.contains(e.target)) {
+            cvDropdown.classList.remove('open');
+            cvBtn.setAttribute('aria-expanded', 'false');
+        }
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            cvDropdown.classList.remove('open');
+            cvBtn.setAttribute('aria-expanded', 'false');
+        }
+    });
+
+    // Close when clicking one of the dropdown links
+    document.querySelectorAll('.dropdown-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            cvDropdown.classList.remove('open');
+            cvBtn.setAttribute('aria-expanded', 'false');
+            // Also close mobile nav if open
+            if (menuToggle) {
+                menuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+    });
+}
