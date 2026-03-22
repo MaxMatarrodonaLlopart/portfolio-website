@@ -1,6 +1,7 @@
 {
   "nav": {
     "sobre_mi": "About me",
+    "experiencia_professional": "Professional Experience",
     "formacio": "Education",
     "projectes": "Projects",
     "visio": "Vision",
@@ -19,6 +20,10 @@
     "p1": "My passion for technology was born in the 4th year of ESO, participating in the First Lego League. A conversation with the dean of the UAB School of Engineering opened my eyes to the possibility of combining two of my great passions: the logic and structure of computer science with the creativity and practical application of electronics in telecommunications.",
     "p2": "I am especially fascinated by the confluence of both disciplines: computer architecture, embedded systems, microwave electronics... these are areas that allow me to understand technology from the transistor to software. This overview of the ICT world, where I can create and transform ideas into tangible realities, is what keeps me fully motivated.",
     "languages": "Languages: Catalan, Spanish, English (CAE, C1) and French (DELF B1)."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "p1": "During July and August 2025, I worked at Kostal performing AOI checks, circuit separation, and manual and automatic ICT testing. This experience allowed me to acquire competencies in electronic quality control, handling of automated optical inspection equipment, problem-solving in production lines, and working in high-precision industrial environments. I developed skills in identifying defects in printed circuit boards and applying standardized testing protocols."
   },
   "education": {
     "title": "Education & interests",

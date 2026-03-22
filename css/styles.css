@@ -219,7 +219,7 @@ nav {
 }
 
 #hero .container {
-    max-width: 900px;
+    max-width: 1200px;
     text-align: center;
 }
 
@@ -302,7 +302,7 @@ nav {
 
 /* ===== SOBRE MI ===== */
 .sobre-mi-content {
-    max-width: 800px;
+    max-width: 900px;
     font-size: 1.1rem;
 }
 
@@ -327,6 +327,34 @@ nav {
     padding: 1rem;
     border-radius: 4px;
     margin-top: 1rem;
+}
+
+/* ===== EXPERIENCIA PROFESIONAL ===== */
+.right-aligned {
+    text-align: right;
+}
+
+.right-title::after {
+    left: auto;
+    right: 0;
+}
+
+.experiencia-content {
+    max-width: 900px;
+    font-size: 1.1rem;
+    text-align: right;
+    margin-left: auto;
+}
+
+.experiencia-content p {
+    margin-bottom: 1.5rem;
+}
+
+.kostal-logo {
+    float: left;
+    width: 300px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* ===== FORMACIÓ (CARDS) ===== */
@@ -438,7 +466,7 @@ nav {
 
 /* ===== VISIÓ ===== */
 .visio-content {
-    max-width: 800px;
+    max-width: 900px;
     font-size: 1.1rem;
 }
 
@@ -523,7 +551,12 @@ footer {
         font-size: 0.8rem;
         word-break: break-word;
     }    
+
     .first-lego-logo {
+        width: 200px;
+    }
+
+    .kostal-logo {
         width: 200px;
     }
     

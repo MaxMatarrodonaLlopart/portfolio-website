@@ -1,6 +1,7 @@
 {
   "nav": {
     "sobre_mi": "Sobre mi",
+    "experiencia_professional": "Experiència professional",
     "formacio": "Formació",
     "projectes": "Projectes",
     "visio": "Visió",
@@ -19,6 +20,10 @@
     "p1": "La meva passió per la tecnologia va néixer a quart d'ESO, participant a la First Lego League. Una conversa amb el rector de l'Escola d'Enginyeria de la UAB em va obrir els ulls a la possibilitat de combinar dues de les meves grans passions: la lògica i estructura de la informàtica amb la creativitat i aplicació pràctica de l'electrònica a les telecomunicacions.",
     "p2": "Em fascina especialment la confluència d'ambdues disciplines: l'arquitectura de computadors, els sistemes encastats, l'electrònica de microones... són àrees que em permeten entendre la tecnologia des del transistor fins al programari. Aquesta visió general del món TIC, on puc crear i transformar idees en realitats tangibles, és el que em manté plenament motivat.",
     "languages": "Idiomes: Català, Castellà, Anglès (CAE, C1) i Francès (DELF B1)."
+  },
+  "experience": {
+    "title": "Experiència professional",
+    "p1": "Durant juliol i agost de 2025, vaig treballar a Kostal realitzant comprovacions amb AOI, separació de circuits, i proves manuals i automàtiques amb ICT. Aquesta experiència em va permetre adquirir competències en control de qualitat electrònic, maneig d'equips d'inspecció òptica automatitzada, resolució de problemes en línies de producció, i treball en entorns industrials d'alta precisió. Vaig desenvolupar habilitats en la identificació de defectes en plaques de circuit imprès i en l'aplicació de protocols de testing estandarditzats."
   },
   "education": {
     "title": "Formació i àrees d'interès",
