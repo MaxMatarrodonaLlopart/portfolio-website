@@ -54,6 +54,14 @@
       "description": "Implementació d'un clon del famós joc de trencaclosques 'Candy Crush' utilitzant C++. El projecte inclou mecàniques de joc com l'intercanvi de caramels, la detecció de coincidències i la gestió de nivells, oferint una experiència de joc fluida i entretinguda."
     },
     "placeholder2": {
+      "title": "eShop",
+      "description": "Implementació d'una botiga en línia utilitzant HTML/CSS/JS per al frontend i PHP/MySQL per al backend. El projecte inclou funcionalitats com la navegació de productes, el carret de compra, el procés de pagament i la gestió d'usuaris, oferint una experiència de compra completa i segura."
+    },
+    "placeholder3": {
+      "title": "Clothes Classifier",
+      "description": "Implementació d'un classificador de vestits utilitzant tècniques de machine learning. El projecte permet classificar imatges de vestits segons el seu estil, color i tipus, oferint una solució automatitzada per a la categorització de productes."
+    },
+    "placeholder4": {
       "title": "Moogle Max",
       "description": "Implementació d'un cercador de camins òptims a partir d'un fitxer OSM (OpenStreetMap). El projecte permet als usuaris trobar la ruta més curta entre dos punts en un mapa a partir de les distàncies entre els nodes."
     }

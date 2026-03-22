@@ -87,7 +87,7 @@ nav {
     font-weight: bold;
     font-style: italic;
     line-height: 1;
-    padding: 0.2rem 0;
+    padding: 0.2rem 0.2rem;
 }
 
 .logo:hover {
@@ -119,6 +119,7 @@ nav {
     display: inline-flex;
     align-items: center;
     transform: translateY(2px);
+    white-space: nowrap;
 }
 
 .cv-btn:hover {
@@ -130,7 +131,8 @@ nav {
     display: none;
     position: absolute;
     top: calc(100% + 8px);
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: var(--color-gris-fosc);
     border: 1px solid var(--color-gris-mitja);
     border-radius: 6px;
@@ -164,6 +166,7 @@ nav {
     border-bottom: 2px solid transparent;
     display: inline-flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .nav-menu a:hover {
@@ -479,7 +482,7 @@ footer {
 }
 
 /* ===== RESPONSIVE (MÒBIL) ===== */
-@media (max-width: 768px) {
+@media (max-width: 870px) {
     .hero-title {
         font-size: 2.5rem;
     }
@@ -498,7 +501,6 @@ footer {
     
     .nav-menu {
         display: none;
-        /* Si vols un menú desplegable en mòbil, ho podem afegir després */
     }
     
     .logo {
@@ -566,7 +568,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 0.75rem;
+    margin-right: 0.5rem;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
@@ -603,7 +605,7 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 870px) {
     .nav-controls {
         gap: 0.5rem;
     }

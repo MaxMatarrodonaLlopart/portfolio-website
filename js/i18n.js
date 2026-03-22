@@ -91,6 +91,26 @@ class I18n {
                     <h3>${t.placeholder2.title}</h3>
                     <p>${t.placeholder2.description}</p>
                     <div class="project-tech">
+                        <span>HTML/CSS/JS</span>
+                        <span>PHP</span>
+                        <span>SQL</span>
+                    </div>
+                    <a href="#" class="project-link">${t.view_code}</a>
+                    <img src="/../assets/images/eShop.png" alt="eShop image">
+                </div>
+                <div class="project-card">
+                    <h3>${t.placeholder3.title}</h3>
+                    <p>${t.placeholder3.description}</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                    </div>
+                    <a href="#" class="project-link">${t.view_code}</a>
+                    <img src="/../assets/images/Clothes Classifier.png" alt="Cloth Classifier image">
+                </div>
+                <div class="project-card">
+                    <h3>${t.placeholder4.title}</h3>
+                    <p>${t.placeholder4.description}</p>
+                    <div class="project-tech">
                         <span>C++</span>
                         <span>XML</span>
                     </div>
