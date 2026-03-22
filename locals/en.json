@@ -39,9 +39,9 @@
     "interests": {
       "title": "Topics I'm passionate about",
       "list": [
+        "Microelectronics",
         "Intelligent Systems",
-        "Robotics",
-        "Microelectronics"
+        "Robotics"
       ]
     }
   },
