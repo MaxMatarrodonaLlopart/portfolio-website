@@ -84,7 +84,7 @@ class I18n {
                     <div class="project-tech">
                         <span>C++</span>
                     </div>
-                    <a href="#" class="project-link">${t.view_code}</a>
+                    <a href="https://github.com/MaxMatarrodonaLlopart/candy-crush-max/tree/main" class="project-link">${t.view_code}</a>
                     <img src="/../assets/images/Candy Crush Max Level.png" alt="Candy Crush Max image">
                 </div>
                 <div class="project-card">
@@ -95,7 +95,7 @@ class I18n {
                         <span>PHP</span>
                         <span>SQL</span>
                     </div>
-                    <a href="#" class="project-link">${t.view_code}</a>
+                    <a href="https://github.com/MaxMatarrodonaLlopart/eShop" class="project-link">${t.view_code}</a>
                     <img src="/../assets/images/eShop.png" alt="eShop image">
                 </div>
                 <div class="project-card">
@@ -104,7 +104,7 @@ class I18n {
                     <div class="project-tech">
                         <span>Python</span>
                     </div>
-                    <a href="#" class="project-link">${t.view_code}</a>
+                    <a href="https://github.com/MaxMatarrodonaLlopart/clothes-classifier" class="project-link">${t.view_code}</a>
                     <img src="/../assets/images/Clothes Classifier.png" alt="Cloth Classifier image">
                 </div>
                 <div class="project-card">
@@ -114,7 +114,7 @@ class I18n {
                         <span>C++</span>
                         <span>XML</span>
                     </div>
-                    <a href="#" class="project-link">${t.view_code}</a>
+                    <a href="https://github.com/MaxMatarrodonaLlopart/moogle-max" class="project-link">${t.view_code}</a>
                     <img src="/../assets/images/Moogle Max.png" alt="Moogle Max image">
                 </div>
             `;

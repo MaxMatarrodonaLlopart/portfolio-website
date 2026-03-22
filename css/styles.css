@@ -380,7 +380,7 @@ nav {
 /* ===== PROJECTES ===== */
 .projectes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
@@ -525,9 +525,15 @@ footer {
     }    
     .first-lego-logo {
         width: 200px;
-    }}
+    }
+    
+    .projectes-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* Language selector i theme toggle */
+
 .nav-controls {
     display: flex;
     align-items: center;

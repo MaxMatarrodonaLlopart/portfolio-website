@@ -54,6 +54,14 @@
       "description": "Implementation of a clone of the famous match-3 puzzle game 'Candy Crush' using C++. The project includes game mechanics like candy swapping, match detection, and level management, providing a smooth and entertaining gameplay experience."
     },
     "placeholder2": {
+      "title": "eShop",
+      "description": "Implementation of an online store using HTML/CSS/JS for the frontend and PHP/MySQL for the backend. The project includes functionalities such as product navigation, shopping cart, payment process and user management, offering a complete and secure shopping experience."
+    },
+    "placeholder3": {
+      "title": "Clothes Classifier",
+      "description": "Implementation of a clothing classifier using machine learning techniques. The project allows classifying images of clothes based on their style, color and type, offering an automated solution for product categorization."
+    },
+    "placeholder4": {
       "title": "Moogle Max",
       "description": "Implementation of an optimal path finder using an OSM (OpenStreetMap) file. The project allows users to find the shortest route between two points on a map based on the distances between nodes."
     }
