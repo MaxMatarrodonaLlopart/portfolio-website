@@ -267,6 +267,16 @@ nav {
     justify-content: center;
 }
 
+.hero-links img {
+    width: 75px;
+    height: auto;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.hero-links a:hover img {
+    opacity: 0.7;
+}
+
 /* ===== BOTONS ===== */
 .button {
     display: inline-block;
@@ -498,6 +508,16 @@ nav {
     gap: 2rem;
     justify-content: center;
     margin-top: 2rem;
+}
+
+.contacte-links img {
+    width: 40px;
+    height: auto;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.contacte-links a:hover img {
+    opacity: 0.7;
 }
 
 /* ===== FOOTER ===== */
